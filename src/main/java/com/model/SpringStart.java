@@ -27,7 +27,7 @@ import org.springframework.scheduling.annotation.Async;
  * @Date 2022/3/4 16:16
  * @Version 1.0
  **/
-public class Test {
+public class SpringStart {
     public static void main(String[] args){
         ApplicationContext applicationContext = new ApplicationContext(AppConfig.class);
 //        AspectService aspectService = (AspectService) applicationContext.getBean("aspectService");
